@@ -22,5 +22,11 @@ jspm_packages/
 .env
 config.json
 
-#Package
+# Packages
 package-lock.json
+
+# GitHub 
+.gitattributes
+.gitignore
+.gitmodules
+.git/

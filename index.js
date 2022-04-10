@@ -4,10 +4,6 @@ const config = require('./config');
 const term = require('terminal-kit').terminal;
 const GistClient = require('./gist');
 const fs = require('fs');
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
 
 let app = express();
 let description, visibility;

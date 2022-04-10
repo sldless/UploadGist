@@ -1,5 +1,4 @@
 const axios = require('axios');
-const termkit = require('terminal-kit');
 class Gist {
     constructor(token) {
         this.access_token = token;
