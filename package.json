@@ -1,0 +1,25 @@
+{
+  "name": "uploadgist",
+  "version": "1.0.0",
+  "description": "Upload Gist using the Github API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sldless/UploadGist.git"
+  },
+  "author": "sldless",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sldless/UploadGist/issues"
+  },
+  "homepage": "https://github.com/sldless/UploadGist#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "terminal-kit": "^2.4.0"
+  }
+}
